@@ -1,0 +1,78 @@
+﻿Build started 09/09/2016 12:05:31 AM.
+     1>Project "C:\Users\shiftay-PC\Desktop\txtRpg-907\textRPG-906\textbasedRPG.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt armor.cpp creator.cpp Enemy.cpp GameWorld.cpp Inventory.cpp main.cpp Player.cpp Potion.cpp Weapon.cpp
+         armor.cpp
+     1>armor.cpp(7): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         creator.cpp
+     1>c:\users\shiftay-pc\desktop\txtrpg-907\textrpg-906\stringUtil.h(29): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\shiftay-pc\desktop\txtrpg-907\textrpg-906\stringUtil.h(76): warning C4018: '<' : signed/unsigned mismatch
+     1>creator.cpp(242): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Enemy.cpp
+     1>c:\users\shiftay-pc\desktop\txtrpg-907\textrpg-906\stringUtil.h(29): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\shiftay-pc\desktop\txtrpg-907\textrpg-906\stringUtil.h(76): warning C4018: '<' : signed/unsigned mismatch
+         GameWorld.cpp
+     1>c:\users\shiftay-pc\desktop\txtrpg-907\textrpg-906\stringUtil.h(29): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\shiftay-pc\desktop\txtrpg-907\textrpg-906\stringUtil.h(76): warning C4018: '<' : signed/unsigned mismatch
+     1>GameWorld.cpp(109): warning C4018: '<' : signed/unsigned mismatch
+     1>GameWorld.cpp(137): warning C4018: '<' : signed/unsigned mismatch
+     1>GameWorld.cpp(147): warning C4018: '<' : signed/unsigned mismatch
+     1>GameWorld.cpp(161): warning C4018: '<' : signed/unsigned mismatch
+     1>GameWorld.cpp(166): warning C4018: '<' : signed/unsigned mismatch
+     1>GameWorld.cpp(178): warning C4018: '<' : signed/unsigned mismatch
+     1>GameWorld.cpp(191): warning C4018: '<' : signed/unsigned mismatch
+     1>GameWorld.cpp(269): warning C4018: '<' : signed/unsigned mismatch
+     1>GameWorld.cpp(434): warning C4018: '<' : signed/unsigned mismatch
+     1>GameWorld.cpp(448): warning C4018: '<' : signed/unsigned mismatch
+     1>GameWorld.cpp(455): warning C4018: '<' : signed/unsigned mismatch
+     1>GameWorld.cpp(478): warning C4018: '<' : signed/unsigned mismatch
+     1>GameWorld.cpp(491): warning C4018: '<' : signed/unsigned mismatch
+     1>GameWorld.cpp(772): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+         Inventory.cpp
+     1>c:\users\shiftay-pc\desktop\txtrpg-907\textrpg-906\stringUtil.h(29): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\shiftay-pc\desktop\txtrpg-907\textrpg-906\stringUtil.h(76): warning C4018: '<' : signed/unsigned mismatch
+     1>Inventory.cpp(14): warning C4018: '<' : signed/unsigned mismatch
+     1>Inventory.cpp(74): warning C4018: '<' : signed/unsigned mismatch
+     1>Inventory.cpp(96): warning C4018: '<' : signed/unsigned mismatch
+     1>Inventory.cpp(122): warning C4018: '<' : signed/unsigned mismatch
+     1>Inventory.cpp(144): warning C4018: '<' : signed/unsigned mismatch
+         main.cpp
+     1>c:\users\shiftay-pc\desktop\txtrpg-907\textrpg-906\stringUtil.h(29): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\shiftay-pc\desktop\txtrpg-907\textrpg-906\stringUtil.h(76): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(3): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>main.cpp(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         Player.cpp
+     1>c:\users\shiftay-pc\desktop\txtrpg-907\textrpg-906\stringUtil.h(29): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\shiftay-pc\desktop\txtrpg-907\textrpg-906\stringUtil.h(76): warning C4018: '<' : signed/unsigned mismatch
+     1>Player.cpp(177): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>Player.cpp(203): warning C4018: '>=' : signed/unsigned mismatch
+     1>Player.cpp(211): warning C4018: '<' : signed/unsigned mismatch
+     1>Player.cpp(217): warning C4018: '>=' : signed/unsigned mismatch
+     1>Player.cpp(225): warning C4018: '>=' : signed/unsigned mismatch
+     1>Player.cpp(328): warning C4018: '<' : signed/unsigned mismatch
+     1>Player.cpp(333): warning C4018: '<' : signed/unsigned mismatch
+     1>Player.cpp(361): warning C4018: '<' : signed/unsigned mismatch
+     1>Player.cpp(369): warning C4018: '<' : signed/unsigned mismatch
+     1>Player.cpp(385): warning C4018: '<' : signed/unsigned mismatch
+         Potion.cpp
+         Weapon.cpp
+     1>Weapon.cpp(5): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\shiftay-PC\Desktop\txtRpg-907\textRPG-906\Release\textbasedRPG.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\shiftay-PC\Desktop\txtRpg-907\textRPG-906\Release\textbasedRPG.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\shiftay-PC\Desktop\txtRpg-907\textRPG-906\Release\textbasedRPG.lib" /MACHINE:X86 /SAFESEH Release\armor.obj
+         Release\creator.obj
+         Release\Enemy.obj
+         Release\GameWorld.obj
+         Release\Inventory.obj
+         Release\main.obj
+         Release\Player.obj
+         Release\Potion.obj
+         Release\Weapon.obj
+         Generating code
+     1>c:\users\shiftay-pc\desktop\txtrpg-907\textrpg-906\creator.cpp(377): warning C4715: 'Creator::howMany' : not all control paths return a value
+         Finished generating code
+         textbasedRPG.vcxproj -> C:\Users\shiftay-PC\Desktop\txtRpg-907\textRPG-906\Release\textbasedRPG.exe
+     1>Done Building Project "C:\Users\shiftay-PC\Desktop\txtRpg-907\textRPG-906\textbasedRPG.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.23
